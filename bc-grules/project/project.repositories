@@ -1,0 +1,20 @@
+<project-repositories>
+  <repositories>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/student/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>internal-repository</id>
+        <url>http://nexus-common.apps.na3.dev.nextcle.com/repository/java</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+  </repositories>
+</project-repositories>
